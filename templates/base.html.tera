@@ -40,7 +40,7 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <form accept-charset="utf-8">
+                        <form method="get" action="/login"  accept-charset="utf-8">
                             <button class="button is-light">
                                 Log Out
                             </button>

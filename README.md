@@ -1,0 +1,8 @@
+- Log-in with user = 'admin' and password = 'admin'
+  - Providing the wrong credentials shows a flash message - this is cleared upon refresh
+- On the next page, type anything into the Name field then click Submit
+- A flash message is shown
+- After refreshing the page, the message is still shown
+- Click logout in the top right
+- The flash message from before is shown on the 'login' screen
+- Refreshing the page now clears the flash message

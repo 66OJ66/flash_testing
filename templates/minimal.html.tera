@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.svg">
+        <link rel="stylesheet" href="/assets/css/bulma.min.css">
+        <title>{% block title %}{% endblock title %} - test</title>
+        {% block head %}{% endblock head %}
+    </head>
+    <body>
+        {% block body %}{% endblock body %}
+    </body>
+</html>
